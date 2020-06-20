@@ -11,15 +11,15 @@
     body,
     html {
       background: linear-gradient(128deg, chartreuse, #13e683);
-      background-size: 400% 400%;
+      background-size: 200% 100%;
 
-      animation: background 5s ease infinite;
+      animation: breathe 8s ease infinite;
       height: 100%;
     }
 
 
 
-    @keyframes background {
+    @keyframes breathe {
       0% {
         background-position: 0% 100%
       }
@@ -45,6 +45,7 @@
       font-size: 8em;
       padding: 0;
       color: white;
+      /* Loads of offset shadows makes it look like comic book text */
       text-shadow:
         0 0.1em 20px rgb(0, 0, 0),
         0.05em -0.03em 0 rgba(0, 0, 0),
